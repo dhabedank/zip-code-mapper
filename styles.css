@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#map {
+    height: 600px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    font-size: 16px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    min-height: 100px;
+    resize: vertical;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+button:hover {
+    background: #2563eb;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.loading {
+    display: none;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #4b5563;
+}
+
+/* Map Elements */
+.zip-label {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    font-weight: bold !important;
+    text-align: center !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-shadow:
+        -1px -1px 0 #fff,
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        1px 1px 0 #fff;
+    pointer-events: none !important;
+}
+
+.zip-tooltip {
+    background: white;
+    border: 1px solid #666;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+/* Instructions Section */
+.instructions {
+    background: #f9fafb;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    margin-top: 1.5rem;
+}
+
+.instructions ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.instructions li {
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}
+
+/* Utility Classes */
+.text-lg { font-size: 1.125rem; }
+.text-sm { font-size: 0.875rem; }
+.font-semibold { font-weight: 600; }
+.text-gray-600 { color: #4b5563; }
+.text-gray-500 { color: #6b7280; }
+.mb-2 { margin-bottom: 0.5rem; }
+.mt-4 { margin-top: 1rem; }
+.mt-1 { margin-top: 0.25rem; }
+.ml-4 { margin-left: 1rem; }
+.space-y-2 > * + * { margin-top: 0.5rem; }
