@@ -20,7 +20,7 @@ This project wouldn't be possible without the following contributions:
 - **Base Map Data**: [OpenStreetMap](https://www.openstreetmap.org/) - Thank you to all OSM contributors for providing the base map data.
 
 ## Usage
-Simply visit the [live site](#) and enter your ZIP codes separated by commas. The map will automatically display the boundaries for the entered ZIP codes.
+Simply visit the [live site](https://dhabedank.github.io/zip-code-mapper/) and enter your ZIP codes separated by commas. The map will automatically display the boundaries for the entered ZIP codes.
 
 ## License
 This project is MIT licensed and makes use of publicly available data and open-source libraries.
