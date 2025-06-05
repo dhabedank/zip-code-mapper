@@ -29,7 +29,7 @@ textarea {
 }
 
 button {
-    width: 100%;
+    flex: 1;
     padding: 12px;
     background: #3b82f6;
     color: white;
@@ -37,12 +37,20 @@ button {
     border-radius: 6px;
     cursor: pointer;
     font-size: 16px;
-    margin-bottom: 20px;
     font-weight: 500;
 }
 
 button:hover {
     background: #2563eb;
+}
+
+.clear-btn {
+    background: #6b7280;
+    margin-left: 10px;
+}
+
+.clear-btn:hover {
+    background: #4b5563;
 }
 
 h1 {
@@ -60,7 +68,38 @@ h1 {
     color: #4b5563;
 }
 
-/* Map Elements */
+.controls {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.radius-control {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.radius-input {
+    width: 70px;
+    padding: 0.25rem 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.radius-input:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+.radius-hint {
+    font-size: 0.8rem;
+    color: #666;
+    margin-left: 0.5rem;
+}
+
 .zip-label {
     background: none !important;
     border: none !important;
@@ -88,7 +127,6 @@ h1 {
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
 }
 
-/* Instructions Section */
 .instructions {
     background: #f9fafb;
     padding: 1.5rem;
@@ -107,8 +145,6 @@ h1 {
     margin-bottom: 0.5rem;
     line-height: 1.5;
 }
-
-/* Utility Classes */
 .text-lg { font-size: 1.125rem; }
 .text-sm { font-size: 0.875rem; }
 .font-semibold { font-weight: 600; }
